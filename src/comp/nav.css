@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;  
+}
+
+/* HEADER WITH LOGO, SEARCH AND LOGIN */
+
+.header {
+    display: flex;
+    padding: 30px 60px;
+    max-width: 100%;
+    justify-content: space-between;
+    margin-bottom: -100px;
+}
+.header .logo img {
+   width: 30%;
+   height: 60%;
+   margin-bottom: 10px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.header .search_box input {
+    padding: 10px 10px;
+    outline: none;
+    background: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 250px;
+    border: none;
+    background: #f6f7f8;
+}
+.header .search_box button {
+    padding: 10px 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    outline: none;
+    width: 50px;
+    color: #fff;
+    cursor: pointer;
+    background: #FF4500;
+    transition: .5s;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+.header .search_box button:hover {
+    background-color: black;
+    color: white;
+}
+
+.header .user {
+    display: flex;
+    margin-left: 300px;
+}
+
+.header .user .icon {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.header .user .btn button {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: none;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+/* HEADER WITH LINKS */
+.last_header {
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    background:#232323;
+    justify-content: space-between;
+}
+
+.last_header .user_profile {
+    display: flex;
+    margin-top: 10px;
+}
+
+.last_header .user_profile .icon {
+    padding: 10px 10px;
+    background: #fff;
+    border-radius: 10px;
+}
+.header .last_header .user_profile .info {
+    margin-left: 10px;
+}
+
+
+.last_header .user_profile .info h2 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.last_header .user_profile .info p {
+    color: #ababab;
+    font-size: 14px;
+}
+
+ .last_header .nav {
+    margin-top: 15px;
+}
+.last_header .nav ul {
+    display: flex;
+}
+
+ .last_header .nav ul li {
+    list-style: none;
+}
+
+.last_header .nav ul li .link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    transition: .55s;
+}
+
+.last_header .nav ul li .link:hover {
+    color: #FF4500;
+    border-bottom: 1px solid #FF4500;
+}
+
+.last_header .offer {
+    margin-right: 20px;
+    padding: 10px 20px;
+    background: #fed700;
+    border-radius: 10px;
+}
+.last_header .offer p {
+    margin-top: 5px;
+    text-transform: uppercase;
+    color: #232323;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* RESPONSIVE 390PX */
+
+.last_header .nav-btn {
+    visibility: hidden;
+    opacity: 0;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+@media only screen and (max-width: 390px) {
+    .last_header .nav-btn {
+        visibility: visible;
+        opacity: 1;
+    }
+    .last_header nav {
+        position: fixed;
+        top: 0;
+        margin-left: 60px;
+        left: 0;
+        height: 30%;
+        width: -30%;
+        align-items: center;
+        gap: 1.5rem;
+        justify-content: center;
+        transition: 1s;
+        transform: translateY(-100vh);
+        background-color: #232323;
+    }
+    .last_header .responsive_nav {
+        transform: none;
+        max-width: 100%;
+        display: block;
+        
+    }
+
+    .last_header .responsive_nav ul {
+        display: block;
+        width: 400px;
+        margin-left: 140px;
+        margin-bottom: 20px;
+    }
+    .last_header .responsive_nav ul li {
+        margin-bottom: 20px;
+        margin-top: 23px;
+        position: static;
+
+    }
+    .last_header .nav-close-btn {
+        background-color: #FF4500;
+
+    }
+    .header .search_box input {
+        padding: 10px 10px;
+        outline: none;
+        background: none;
+        margin-bottom: 30px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        width: 200px;
+        border: none;
+        background: #f6f7f8;
+    }
+    .header .search_box .btn button {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border: none;
+        outline: none;
+        width: 60px;
+        color: #fff;
+        cursor: pointer;
+        background: #FF4500;
+        transition: .5s;
+        font-weight: 600;
+        margin-right: 20px;
+    }
+    .header .user .btn button {
+        border: none;
+        outline: none;
+        font-size: 16px;
+        background: none;
+        cursor: pointer;
+        margin-top: 18px;
+        margin-left: -190px;
+        
+    }
+    .last_header .user_profile .icon {
+        padding: 5px 5px;
+        background: #fff;
+        border-radius: 5px;
+    }
+    .last_header .user_profile {
+        display: flex;
+        margin-top: 25px;
+    }
+    .header .user .icon {
+        margin-right: 10px;
+        margin: -500px;
+        margin-top: 10px;
+    }
+    .last_header .user_profile .info p {
+        color: #ababab;
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    .last_header {
+        width: 100%;
+        display: flex;
+        background:#232323;
+        justify-content: space-between;
+    }
+    .header {
+        display: flex;
+        padding: 20px 30px;
+        max-width: 100%;
+        justify-content: space-between;
+        margin-bottom: -30px;
+    }
+    .header .search_box button {
+        padding: 10px 10px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border: none;
+        outline: none;
+        width: 50px;
+        color: #fff;
+        cursor: pointer;
+        background: #FF4500;
+        transition: .5s;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-right: -100px;
+    }
+    .last_header .offer {
+        margin-right: 30px;
+        margin-top: 7px;
+        padding: 2px 17px;
+        width: 42%;
+        height: 50%;
+        background: #fed700;
+        border-radius: 10px;
+    }
+    .last_header .offer p{
+        font-size: 13px;
+        font-weight: bold;
+        
+    }
+}
+
+/* RESPONSIVE 1440PX */
+
+@media (max-width: 1440px) {
+    .header .search_box button {
+        padding: 10px 10px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border: none;
+        outline: none;
+        width: 50px;
+        color: #fff;
+        cursor: pointer;
+        background: #FF4500;
+        transition: .5s;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-right: -100px;
+    }
+    .header .logo img {
+        margin-bottom: 20px;
+    }
+}
+
+/* RESPONSIVE 768PX */
+
+@media (max-width: 768px) {
+    .header {
+        display: flex;
+        padding: 20px 30px;
+        max-width: 100%;
+        justify-content: space-between;
+        margin-bottom: -5px;
+    }
+    .header .logo img {
+        margin-bottom: -50px;
+        width: 100%;
+        height: 70px;
+    }
+}
