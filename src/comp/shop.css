@@ -18,12 +18,6 @@
     font-weight: 300;
 }
 
-.shop p {
-    margin-top: 5px;
-    color: #8a8a8a;
-    font-size: 14px;
-    font-weight: 600;
-}
 .shop .container {
     max-width: 100%;
     display: flex;
@@ -205,4 +199,18 @@
 .shop .container .right_box .product_box .product_container .box .detail button:hover {
     background: #232323;
     color: #f6f6f6;
+}
+
+@media (max-width: 360px) {
+    .shop .container .left_box .banner .img_box img {
+        width: 0%;
+    }
+    .shop .container .right_box .banner .img_box img {
+        width: 0%;
+    }
+    .shop .container .right_box {
+        width: 100%;
+        margin-top: 157px;
+        margin-left: -85px;
+    }
 }

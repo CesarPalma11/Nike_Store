@@ -71,7 +71,7 @@ const Footer = () => {
                         <div className='box'>
                             <h3>Contact us</h3>
                             <ul>
-                                <li>Bs As</li>
+                                <li>Buenos Aires, Argentina</li>
                                 <li>+54 9 11 6018-5717</li>
                                 <li>cesarpalmag16@gmail.com</li>
                             </ul>
