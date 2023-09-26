@@ -214,3 +214,17 @@
         margin-left: -85px;
     }
 }
+
+@media (max-width: 384px) {
+    .shop .container .left_box .banner .img_box img {
+        width: 0%;
+    }
+    .shop .container .right_box .banner .img_box img {
+        width: 0%;
+    }
+    .shop .container .right_box {
+        width: 100%;
+        margin-top: 157px;
+        margin-left: -85px;
+    }
+}

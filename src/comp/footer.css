@@ -290,17 +290,4 @@
         letter-spacing: 0;
     }
     
-    .footer .container .right_box .bottom .box ul {
-        margin-top: 15px;
-    } 
-    
-    .footer .container .right_box .bottom .box ul li {
-        list-style: none;
-        margin-top: 5px;
-        color: #8a8a8a;
-        text-transform: capitalize;
-        letter-spacing: 0px;
-        font-size: 12px;
-        cursor: pointer;
-    }
 }
