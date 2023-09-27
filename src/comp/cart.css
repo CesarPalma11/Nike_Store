@@ -163,3 +163,105 @@
     cursor: pointer;
     margin-top: 20px;
 }
+
+@media (max-width: 430px) {
+    .cart .empty_cart button {
+        margin-left: 30%;
+        padding: 10px 30px;
+        margin-top: 10px;
+        background: #fed700;
+        color: #cd176c;
+        border: none;
+        outline: none;
+        border: 1px solid #fed700;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+    .cart .container .box {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 300px;
+    }
+    .cart .container .box .detail {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    .cart .container .box .detail .info {
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    
+    .cart .container .box .detail .info p {
+        margin-top: 10px;
+        color: #232323;
+        text-transform: uppercase;
+    }
+    
+    .cart .container .box .detail .quantity {
+        margin-top: 65px;
+        margin-left: 30px;
+        display: flex;
+    }
+    
+    .cart .container .box .detail .quantity button {
+        padding: 10px 20px;
+        color: #232323;
+        border: none;
+        outline: none;
+        background: #fed700;
+        font-weight: 600;
+        font-size: 16px;
+        height: 40px;
+        cursor: pointer;
+    }
+    
+    .cart .container .box .detail .quantity input {
+        height: 40px;
+        padding: 10px 20px;
+        background: none;
+        border: none;
+        outline: none;
+        border: 2px solid #fed700;
+        color: #cd176c;
+        font-size: 14px;
+        font-weight: 600;
+        width: 130px;
+    }
+    
+    .cart .container .box .detail .icon {
+        margin-top: -39px;
+        margin-left: 300px;
+    }
+    
+    .cart .container .box .detail .icon li {
+        width: 35px;
+    }
+    
+    .cart .bottom .total h4 {
+        font-size: 22px;
+        font-weight: 600;
+        color: #ffa500;
+        text-transform: uppercase;
+        margin-bottom: 100px;
+    }
+    .cart .container .box .img_box img {
+        width: 270px;
+        height: 98%;
+        margin-right: 30px;
+    }
+    .cart .container .box {
+        display: flex;
+        width: 100%;
+        border: none;
+        height: 250px;
+        margin-top: 10px;
+    }
+    .cart .bottom button {
+        margin-top: -20px;
+    }
+}

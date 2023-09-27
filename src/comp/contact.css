@@ -154,4 +154,17 @@ body {
     background: #ffa500;
     cursor: pointer;
 }
+@media (max-width: 430px) {
+    .contact .container .form {
+        width: 400px;
+        background: #f6f6f6;
+        padding: 20px 30px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 8px;
+        margin: 0px auto;
+        border-top: 3px solid #ffa500;
+        border-radius: 5px;
+        margin-left: -45px;
+    }
+}
+
 }
