@@ -24,11 +24,10 @@ const Home = ({addtocart}) => {
     <>
     <div className='home'>
         <div className='top_banner'>
-        
             <div className='contant'>
-            <img src='./img/banner.webp' alt=''></img>
             <Link to='/shop' className='link' > Shop Now <BsArrowRight className='arrow'/></Link>
             </div>
+            
         </div>
         <div className='trending'>
           <div className='container'>

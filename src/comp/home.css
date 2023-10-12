@@ -14,37 +14,39 @@ html, body {
     width: 100%;
 }
 
-.home .top_banner .contant img {
+.home .top_banner .contant {
     max-width: 100%;
     width: 100%;
+    background: url('https://replynikestore.netlify.app/img/banner.webp');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 600px;
     background-position: center;
+    padding: 50px 60px;
 }
 
-.home .top_banner .contant {
+.home .top_banner  {
     width: 100%;
     position: relative;
     top: 30%;
 }
 
-.home .top_banner .contant .link {
+.home .top_banner .link {
     padding: 10px 30px;
     background: #FF4500;
     color: #232323;
     text-decoration: none;
     transition: .5s;
-    margin-bottom: 5rem;
 }
 
-.home .top_banner .contant .link:hover {
+.home .top_banner .link:hover {
     color: white;
     background: black;
 }
 
 .home .top_banner .contant .link .arrow {
     font-size: 18px;
+    margin-top: 20rem;
 }
 
 /* TRENDINGS PRODUCTS */
@@ -201,9 +203,34 @@ html, body {
     color:#f6f7f8;
 }
 
+
+@media (max-width: 1440px) {
+    .home .top_banner .contant img {
+        height: 600px;
+    }
+    .home .top_banner .contant .link .arrow {
+        font-size: 18px;
+        margin-top: 27rem;
+    }
+    .home .top_banner .contant .link{
+        margin-left: 35rem;
+    }
+}
 /* RESPONSIVE 768PX */
 
 @media (max-width: 768px) {
+
+
+    .home .top_banner .contant .link .arrow {
+        font-size: 18px;
+        margin-top: 25rem;
+    }
+    .home .top_banner .contant .link{
+        margin-left: 14rem;
+    }
+    .home .top_banner .contant img {
+        height: 400px;
+    }
     .home .trending {
         padding: 20px;
         width: 100%;
@@ -329,6 +356,17 @@ html, body {
     }
 }
 @media (max-width: 430px) {
+
+    .home .top_banner .contant img {
+        height: 200px;
+    }
+    .home .top_banner .contant .link .arrow {
+        font-size: 18px;
+        margin-top: 25rem;
+    }
+    .home .top_banner .contant .link{
+        margin-left: 45px;
+    }
     .home .trending .container .left_box .products .container .box {
         width: 210px;
         height: 300px;
