@@ -24,10 +24,11 @@ const Home = ({addtocart}) => {
     <>
     <div className='home'>
         <div className='top_banner'>
+        
             <div className='contant'>
-                
+              
                 <Link to='/shop'  className='link' > Shop Now <BsArrowRight className='arrow'/></Link>
-                    
+                
             </div>
         </div>
         <div className='trending'>

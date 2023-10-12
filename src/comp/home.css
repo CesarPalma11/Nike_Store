@@ -374,4 +374,14 @@ html, body {
     .home .trending .container .left_box .header .heading h2 {
         font-size: 0px;
     }
+    .home .top_banner {
+        max-width: 100%;
+        background: url('http://localhost:3000/img/banner.webp');
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        background-position: center;
+        padding: 50px 60px;
+    }
 }
