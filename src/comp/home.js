@@ -25,8 +25,7 @@ const Home = ({addtocart}) => {
     <div className='home'>
         <div className='top_banner'>
             <div className='contant'>
-                <h3>New</h3>
-                <h2>Nike Jordan 1</h2>
+                
                 <Link to='/shop'  className='link' > Shop Now <BsArrowRight className='arrow'/></Link>
                     
             </div>
